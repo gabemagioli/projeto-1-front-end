@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="style.sheet" href="resetjogo.css" />
+    <title>Projeto1 Gabriel Magioli</title>
+    <link rel="stylesheet" href="contatojogo.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        <img
+          id="imgback"
+          src="https://th.bing.com/th?id=OIP.XeM_FrFIxzmhTPnn_ASbyAHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+        />
+      </h1>
+      <p id="nomesite">SITE TESTE</p>
+
+      <button id="signup">SIGN-UP</button>
+      <button id="signin">SIGN-IN</button>
+
+      <nav>
+        <ul>
+          <li class="headerli">
+            <a href="about.html" class="listainformacoes">About</a>
+          </li>
+          <li class="headerli">
+            <a href="index.html" class="listainformacoes">Home</a>
+          </li>
+          <li class="headerli">
+            <a href="contatojogo.html" class="listainformacoes">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <form>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" />
+
+          <label>Email</label>
+          <input type="text" id="email" />
+
+          <label for="telefone">Telefone</label>
+          <input type="text" id="telefone" />
+
+          <label for="mensagem">Mensagem</label>
+          <textarea cols="70" rows="10" id="mensagem"></textarea>
+
+          <p>Forma de contato que voce deseja:</p>
+          <label for="rdemail" class="inputradio">Email</label>
+          <input type="radio" name="radio" id="rdemail" class="inr" />
+
+          <label for="telefone" class="inputradio">Telefone</label>
+          <input type="radio" name="radio" id="telefone" class="inr" />
+
+          <label for="check" id="labelcheck"
+            >Gostaria de se manter antenado nos assuntos e produtos da
+            pagina?</label
+          >
+          <input type="checkbox" id="check" />
+
+          <input type="submit" value="Enviar" id="submit" />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <h1>
+        <img
+          id="imgfinal"
+          src="https://th.bing.com/th?id=OIP.XeM_FrFIxzmhTPnn_ASbyAHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+        />
+      </h1>
+      <p>primeiro projeto gabriel</p>
+    </footer>
+    <script src="signup.js"></script>
+    <script src="botaoenviar.js"></script>
+    <script src="signup.js"></script>
+  </body>
+</html>

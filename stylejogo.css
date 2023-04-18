@@ -1,0 +1,131 @@
+body {
+  width: 100%;
+}
+
+header {
+  background-color: black;
+}
+
+#signup {
+  border: 3.5px solid rgb(47, 190, 47);
+  border-radius: 12px;
+  color: greenyellow;
+  background-color: black;
+  position: relative;
+  left: 1400px;
+  bottom: 260px;
+}
+
+#signin {
+  border: 3.5px solid rgb(47, 190, 47);
+  border-radius: 12px;
+  color: greenyellow;
+  background-color: black;
+  position: relative;
+  left: 1200px;
+  bottom: 260px;
+}
+
+header button:hover {
+  font-size: 20px;
+}
+
+#imgback {
+  height: 200px;
+  display: inline;
+}
+
+#nomesite {
+  color: rgb(126, 205, 8);
+  font-size: 30px;
+  padding-left: 110px;
+}
+
+.listainformacoes {
+  font-size: 40px;
+  text-decoration: none;
+  color: rgb(142, 236, 0);
+  text-transform: uppercase;
+}
+
+.headerli {
+  display: inline-block;
+  margin: 0 15px;
+  display: inline-block;
+  margin: 0 15px;
+  position: relative;
+  left: 700px;
+  bottom: 170px;
+  padding-top: 10px;
+}
+
+ul a:hover {
+  color: white;
+}
+
+main {
+  background: white;
+  padding: 12px;
+  margin: auto;
+}
+
+.imgjogo {
+  width: 60px;
+  height: 100px;
+}
+
+.mainli {
+  border: 3px solid;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 10px 50px;
+  width: 25%;
+  height: 400px;
+  display: inline-block;
+}
+
+main li:hover {
+  border-color: rgb(7, 199, 7);
+}
+
+main li:hover h2 {
+  font-size: 35px;
+  vertical-align: top;
+}
+
+.titulojogo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.imgjogo {
+  height: 170px;
+  width: 150px;
+  padding-left: 110px;
+}
+
+.descricaojogo {
+  font-size: 20px;
+  text-align: center;
+}
+
+.precojogo {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+}
+
+footer p {
+  color: rgb(30, 180, 30);
+  padding-left: 645px;
+  padding-bottom: 10px;
+}
+
+#imgfinal {
+  padding-left: 500px;
+}
